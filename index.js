@@ -90,13 +90,22 @@ $(document).ready(function() {
 	}
 
 	$('.cell').hover(function (){
-		$(this).addClass("highlight");
+		$(this).css("background-color","#adebeb");
 	});
 
-	$('body').append("<button>Clear Grid</button>")
+	$('body').append("<button>Clear Grid</button>");
+	$('body').append("<button class='rainbow'>Rainbow</button>");
+
+	$('.rainbow').click(function () {
+		$('.cell').hover(function (){
+			var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+			$(this).css("background-color",hue);
+		});		
+	})
 
 	$('button').click(function () {
-		$('.cell').removeClass('highlight');
+		$('.cell').css("background-color", '#f2f2f2');
+		//$('.cell').removeClass('highlight');
 	});
 	//$('body').append("<p>Test</p>");*/
 });

@@ -1,0 +1,141 @@
+.container {
+	background-color:transparent;
+	width:800px;
+	height:800px;
+}
+
+div {
+	background-color:#f2f2f2;
+	width:50px;
+	height:50px;
+	/*border:1px solid black;*/
+}
+
+.col-1 {
+	background-color:red;
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:0px;
+}
+
+.col-2 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:50px;
+}
+
+.col-3 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:100px;
+}
+
+.col-4 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:150px;
+}
+
+.col-5 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:200px;
+}
+
+.col-6 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:250px;
+}
+
+.col-7 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:300px;
+}
+
+.col-8 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:350px;
+}
+
+.col-9 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:400px;
+}
+
+.col-10 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:450px;
+}
+
+.col-11 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:500px;
+}
+
+.col-12 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:550px;
+}
+
+.col-13 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:600px;
+}
+
+.col-14 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:650px;
+}
+
+.col-15 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:700px;
+}
+
+.col-16 {
+	width:50px;
+	height:800px;
+	position:absolute;
+	left:750px;
+}
+
+.highlight {
+	background-color:#adebeb;
+}
+
+button {
+	font-family:Arial;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#adebeb;
+	button-style:none;
+}
+
+button.hover {
+	border:1px solid black;
+}
